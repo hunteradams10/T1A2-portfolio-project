@@ -1,0 +1,202 @@
+
+/* To control the overall borders of the document */
+* {
+    box-sizing: border-box;
+}
+
+/* Default body parameters override */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: pink;
+}
+
+/* Making a responsive navbar with flexbox */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+}
+
+/* "Hunter Adams" top-left styling */
+
+.brand-title {
+    font-size: 1.5rem;
+    margin: .5rem;
+}
+/* Navbar list styling */
+
+.navbar-links ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+/* Removing list properties from navbar */
+
+.navbar-links li {
+    list-style: none;
+}
+
+/* Removing link properties from navbar and adding styling */
+
+.navbar-links li a {
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    display: block;
+}
+
+/* makes hover styling purdy */
+
+.navbar-links li:hover {
+    background-color: #555;
+}
+
+/* positions hamburger menu but makes sure it doesn't display by default */
+
+.toggle-button {
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 31px;
+    height: 21px;
+}
+
+/* Defines the lines of the hamburger menu */
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+/* Media query for responsiveness. If screen size is reduced past 600px, the following styling will take effect */
+@media (max-width: 600px) {
+
+    /* the hamburger menu will display and be responsive */
+    .toggle-button {
+        display: flex;
+    }
+
+    /* "Work/Study" etc will not display */
+    .navbar-links {
+        display: none;
+        width: 100%;
+    }
+
+    /* flexbox changes to make the navbar container stack vertically instead of horizontally, while keeping the brand name over to the left (flex-start) */
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    /* this is to make the links take up their whole container and makes the container stack vertically */
+    .navbar-links ul {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    /* Aligns the text in the links to the center */
+    .navbar-links li {
+        text-align: center;
+    }
+    /* Reduces the space between each link so they fit together more closely */
+    .navbar-links li a {
+        padding: .5rem 1rem;
+    }
+
+    /* Using "active" property for when the hamburger menu is clicked */
+    .navbar-links.active {
+        display: flex;
+    }
+}
+
+/* styling for the main container of the body; position is relative to parent and min-height is 100% of the viewport; responsive */
+.index-main-container {
+    position: relative;
+    min-height: 100vh;
+}
+/* This pushes the footer all the way to the bottom of the page with a 2.5rem padding separating it from the main content container */
+/* Wraps the content inside the main body area of index.html */
+
+.index-main-content-wrap {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 2.5rem;
+    padding-top: 2.5rem;
+    justify-content: center;
+}
+
+/* img styling for the icons in the main index.html */
+.index-main-content-wrap img {
+    width: 50%;
+    height: auto;
+    display: block;
+    padding-bottom: 2rem;
+}
+
+/* styling for the alternate text of icons in index main */
+.index-main-content-wrap a {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* styling for the footer container */
+
+.index-footer-container {
+    /* position: absolute; */
+    background-color: blue;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+ 
+}
+
+/* styling for the text inside footer */
+.index-footer-container p {
+    margin-bottom: 0;
+    color: white;
+    text-align: center;
+}
+
+/* styling for icons inside footer */
+.footer-icons {
+    display: flex;
+    justify-content: center;
+    padding: 5rem;
+    margin: 0;
+    background-color: blue;
+}
+
+
+.blog-main-content-wrap {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    position: relative;
+}
+
+.blog-main-content-wrap img {
+    display: block;
+    flex-direction: column;
+    width: 40%;
+    height: auto;
+    padding: 5px
+}
+
+.blog-main-content-wrap p {
+    padding: 5px;
+}
+
