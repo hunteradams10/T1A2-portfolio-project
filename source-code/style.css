@@ -219,6 +219,7 @@ body {
     border-radius: 20px;
     padding-left: 2em;
     margin-bottom: 1.2em;
+    margin-top: 1.2em;
 }
 
 .blog-post-2-title {
@@ -240,11 +241,23 @@ body {
     opacity: 0.6;
     border-radius: 20px;
     padding-left: 2em;
+    margin-bottom: 2em;
+    margin-top: 2em;
+}
+
+.blog-post-4-title {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    background-color: white;
+    opacity: 0.6;
+    border-radius: 20px;
+    padding-right: 2em;
     margin-bottom: 1.2em;
     margin-top: 1.2em;
 }
 
-.blog-post-4-title {
+.blog-post-5-title {
     display: flex;
     width: 100%;
     background-color: white;
@@ -255,6 +268,7 @@ body {
     margin-top: 1.2em;
 }
 
+
 .blog-post-1 {
     display: flex;
     gap: 2%
@@ -263,6 +277,7 @@ body {
 .blog-post-1 img {
     width: 30%;
     height: auto;
+    border-radius: 1.2em;
 }
 
 .blog-post-2 {
@@ -273,6 +288,7 @@ body {
 .blog-post-2 img {
     width: 30%;
     height: auto;
+    border-radius: 1.2em;
 }
 
 .blog-post-3 {
@@ -283,6 +299,7 @@ body {
 .blog-post-3 img {
     width: 30%;
     height: auto;
+    border-radius: 1.2em;
 }
 
 .blog-post-4 {
@@ -293,6 +310,18 @@ body {
 .blog-post-4 img {
     width: 30%;
     height: auto;
+    border-radius: 1.2em;
+}
+
+.blog-post-5 {
+    display: flex;
+    gap: 2%
+}
+
+.blog-post-5 img {
+    width: 30%;
+    height: auto;
+    border-radius: 1.2em;
 }
 
 
@@ -358,6 +387,18 @@ body {
         width: 100%;
         height: auto;
     }
+
+    .blog-post-5 {
+        display: flex;
+        flex-direction: column;
+        gap: 2%
+    }
+
+    .blog-post-5 img {
+        align-self: center;
+        width: 100%;
+        height: auto;
+    }
 }
 
 
@@ -385,7 +426,9 @@ body {
     margin-top:100vh;
   }
 
+  /* Blog title */
   .blog-heading {
       text-align: center;
       padding: 2%;
   }
+
