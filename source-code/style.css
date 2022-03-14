@@ -204,7 +204,8 @@ body {
     flex-wrap: wrap;
     align-items: center;
     position: relative;
-    padding: 5%
+    padding-top: 12%;
+    margin-top: 12%
 }
 
 .blog-main-content-wrap p {
@@ -327,7 +328,7 @@ body {
 
 /* This is for mobile views, just copy and paste settings for each post and image number */
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 913px) {
 
     .blog-main-content-wrap {
 
@@ -432,3 +433,6 @@ body {
       padding: 2%;
   }
 
+  .dropdown{
+      display: block;
+  }
