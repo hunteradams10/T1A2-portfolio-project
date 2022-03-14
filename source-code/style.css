@@ -56,6 +56,16 @@ body {
     background-color: #555;
 }
 
+/* SEARCH BAR STYLING */
+
+.navbar input[type=text] {
+    padding: 6px;
+    border: none;
+    margin: 8px;
+    background-color: black;
+    color: white;
+}
+
 /* positions hamburger menu but makes sure it doesn't display by default */
 
 .toggle-button {
@@ -113,9 +123,17 @@ body {
         padding: .5rem 1rem;
     }
 
-    /* Using "active" property for when the hamburger menu is clicked */
+    /* Using "active" property for when the hamburger menu is clicked -- adds an active class to the element that can be controlled via a function in javascript */
     .navbar-links.active {
         display: flex;
+    }
+
+    /* Search bar when query is active */
+    .navbar input[type=text] {
+        padding-left: 12px;
+        width: 30%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
@@ -179,24 +197,195 @@ body {
     background-color: blue;
 }
 
-
+/* Controls how to display main content in blog */
 .blog-main-content-wrap {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
     position: relative;
-}
-
-.blog-main-content-wrap img {
-    display: block;
-    flex-direction: column;
-    width: 40%;
-    height: auto;
-    padding: 5px
+    padding: 5%
 }
 
 .blog-main-content-wrap p {
-    padding: 5px;
+    font-size: 1.18em;
 }
 
+.blog-post-1-title {
+    display: flex;
+    width: 100%;
+    background-color: white;
+    opacity: 0.6;
+    border-radius: 20px;
+    padding-left: 2em;
+    margin-bottom: 1.2em;
+}
+
+.blog-post-2-title {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    background-color: white;
+    opacity: 0.6;
+    border-radius: 20px;
+    padding-right: 2em;
+    margin-bottom: 1.2em;
+    margin-top: 1.2em;
+}
+
+.blog-post-3-title {
+    display: flex;
+    width: 100%;
+    background-color: white;
+    opacity: 0.6;
+    border-radius: 20px;
+    padding-left: 2em;
+    margin-bottom: 1.2em;
+    margin-top: 1.2em;
+}
+
+.blog-post-4-title {
+    display: flex;
+    width: 100%;
+    background-color: white;
+    opacity: 0.6;
+    border-radius: 20px;
+    padding-left: 2em;
+    margin-bottom: 1.2em;
+    margin-top: 1.2em;
+}
+
+.blog-post-1 {
+    display: flex;
+    gap: 2%
+}
+
+.blog-post-1 img {
+    width: 30%;
+    height: auto;
+}
+
+.blog-post-2 {
+    display: flex;
+    gap: 2%
+}
+
+.blog-post-2 img {
+    width: 30%;
+    height: auto;
+}
+
+.blog-post-3 {
+    display: flex;
+    gap: 2%
+}
+
+.blog-post-3 img {
+    width: 30%;
+    height: auto;
+}
+
+.blog-post-4 {
+    display: flex;
+    gap: 2%
+}
+
+.blog-post-4 img {
+    width: 30%;
+    height: auto;
+}
+
+
+/* This is for mobile views, just copy and paste settings for each post and image number */
+
+@media only screen and (max-width: 800px) {
+
+    .blog-main-content-wrap {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: nowrap;
+        position: relative;
+
+    }
+
+    .blog-post-1 {
+        display: flex;
+        flex-direction: column;
+        gap: 2%
+    }
+
+    .blog-post-1 img {
+        align-self: center;
+        width: 100%;
+        height: auto;
+    }
+
+
+    .blog-post-2 {
+        display: flex;
+        flex-direction: column;
+        gap: 2%
+    }
+
+    .blog-post-2 img {
+        align-self: center;
+        width: 100%;
+        height: auto;
+    }
+
+    .blog-post-3 {
+        display: flex;
+        flex-direction: column;
+        gap: 2%
+    }
+
+    .blog-post-3 img {
+        align-self: center;
+        width: 100%;
+        height: auto;
+    }
+
+    .blog-post-4 {
+        display: flex;
+        flex-direction: column;
+        gap: 2%
+    }
+
+    .blog-post-4 img {
+        align-self: center;
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+
+/* Styling for the Back-To-Top Button CONTAINER */
+.back-to-top {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+/* Styling for the BTT element ITSELF */
+.top {
+    text-decoration: none;
+    padding: 10px;
+    font-family: sans-serif;
+    color: #fff;
+    background: #000;
+    border-radius: 100px;
+    position: sticky;
+    bottom: 50px;
+    margin-top:100vh;
+  }
+
+  .blog-heading {
+      text-align: center;
+      padding: 2%;
+  }
