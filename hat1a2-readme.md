@@ -54,7 +54,7 @@ HTML, CSS and Javascript.
 
 **Screenshots**
 
-(Screenshots display a large portion of the website but not the whole thing in its entirity. These are intended to showcase parts of the website. )
+(Screenshots display a large portion of the website but not the whole thing in its entirity. These are intended to showcase the website. )
 
 ![screenshot-home](./docs/screenshot-home.png "Main Page")
 
@@ -78,8 +78,3 @@ HTML, CSS and Javascript.
 
 ![screenshot-home](./docs/screenshot-work-and-study-2.png "Work/Study 2")
 
-**Footer Links to Github and Linkedin:**
-
-![screenshot-github](./docs/screenshot-github.png "Github Page")
-
-![screenshot-home](./docs/screenshot-linkedin.png "Linkedin Page")
