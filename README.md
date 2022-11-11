@@ -13,6 +13,7 @@ I have created a portfolio website with a view to display my abilities as a web 
 
 **Functionality/Features**
 
+
 I've created a very simple, highly-accessible web page with a lot of CSS animations over pictures and icons to create interest and increase user experience. The website's features are as follows:
 
 * The website features a "back-to-top" button on all pages that require scrolling
@@ -41,9 +42,7 @@ I've created a very simple, highly-accessible web page with a lot of CSS animati
 
 ![sitemap](./docs/hunter-adams-sitemap.png "Sitemap")
 
-**Target Audience**
 
-This website is aimed at prospective employers and fellow web developers.
 
 **Tech Stack**
 
