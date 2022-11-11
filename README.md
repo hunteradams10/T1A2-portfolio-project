@@ -1,12 +1,3 @@
-**Website Link**
-
-https://fervent-goldwasser-95dc4e.netlify.app 
-
-**Github Repo**
-
-https://github.com/hunteradams10/T1A2-portfolio-project
-
-
 **Purpose**
 
 I have created a portfolio website with a view to display my abilities as a web developer to prospective employers and other developers.
