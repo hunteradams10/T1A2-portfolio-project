@@ -35,50 +35,6 @@ I've created a very simple, highly-accessible web page with a lot of CSS animati
 * Styled, responsive footer element with image links to github and LinkedIn on each page.
 
 
-
-**Sitemap**
-
-
-
-![sitemap](./docs/hunter-adams-sitemap.png "Sitemap")
-
-
-
 **Tech Stack**
 
 HTML, CSS and Javascript.
-
-
-
-
-**Screenshots**
-
-(Screenshots display a large portion of the website but not the whole thing in its entirity. These are intended to showcase parts of the website. )
-
-![screenshot-home](./docs/screenshot-home.png "Main Page")
-
-![screenshot-blog-1](./docs/screenshot-blog-1.png "Blog 1")
-
-![screenshot-blog-2](./docs/screenshot-blog-2.png "Blog 2")
-
-![screenshot-blog-3](./docs/screenshot-blog-3.png "Blog 3")
-
-![screenshot-blog-4](./docs/screenshot-blog-4.png "Blog 4")
-
-![screenshot-skills-1](./docs/screenshot-skills-and-interests-1.png "Skills/Interests 1")
-
-![screenshot-skills-2](./docs/screenshot-skills-and-interests-2.png "Skills/Interests 2")
-
-![screenshot-skills-3](./docs/screenshot-skills-and-interests-3.png "Skill/Interests 3")
-
-![screenshot-skills-4](./docs/screenshot-skills-and-interests-4.png "Skills/Interests 4")
-
-![screenshot-home](./docs/screenshot-work-study-1.png "Work/Study 1")
-
-![screenshot-home](./docs/screenshot-work-and-study-2.png "Work/Study 2")
-
-**Footer Links to Github and Linkedin:**
-
-![screenshot-github](./docs/screenshot-github.png "Github Page")
-
-![screenshot-home](./docs/screenshot-linkedin.png "Linkedin Page")
