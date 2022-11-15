@@ -227,6 +227,16 @@ a:visited {
   font-family: "Lora", serif;
 }
 
+.index-text{
+  padding: 30px;
+}
+
+@media (max-width: 600px){
+  .index-main-content-wrap{
+    flex-direction: column;
+  }
+}
+
 /* FOOTER COMPONENT */
 
 /* styling for the footer container */
