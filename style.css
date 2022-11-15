@@ -649,197 +649,40 @@ a:visited {
 /* Main Skills and Interests page wrapper */
 
 .skills-interests-main-wrapper {
-  display: block;
+  display: flex;
+  flex-direction: column;
   margin: 1.5%;
-  padding-top: 2%;
 }
 
-/* First component: Writing */
-.skills-interests-1 {
-  display: flex;
-  /* margin: 1.5%; */
+.skills-title{
+  padding-top: 0px;
 }
 
-/* Image for Writing skill */
-
-.skill-writing {
-  display: flex;
-  gap: 2%;
-}
-
-.skill-writing img {
-  width: 40%;
-  height: auto;
-  border-radius: 50%;
+.skills-img{
+  width: 400px;
+  height: 400px;
   object-fit: cover;
-  transition: 1.5s;
-}
-
-/* IMG COMPONENT: BORDER RADIUS EFFECT */
-
-.skill-writing img:hover {
   border-radius: 10%;
+  padding: 10px;
+  margin: 10px;
+  padding-bottom: 30px;
 }
 
-/* TXT COMPONENT: TITLES */
-
-/* These components repeat down the line for each image and body of text. */
-
-.writing-title {
-  display: flex;
-  width: 100%;
-  background-color: white;
-  /* opacity: 0.6; */
-  border-radius: 20px;
-  padding-left: 1.5%;
-  margin-bottom: 1.2em;
-  margin-top: 1.2em;
-}
-
-.skill-bjj {
-  display: flex;
-  gap: 2%;
-}
-
-.skill-bjj img {
-  width: 40%;
-  height: auto;
-  border-radius: 50%;
-  object-fit: cover;
-  transition: 1.5s;
-}
-
-.skill-bjj img:hover {
-  border-radius: 10%;
-}
-
-.bjj-title {
-  display: flex;
-  width: 100%;
-  background-color: white;
-  /* opacity: 0.6; */
-  border-radius: 20px;
-  padding-left: 1.5%;
-  margin-bottom: 1.2em;
-  margin-top: 1.2em;
-}
-
-.skill-coding {
-  display: flex;
-  gap: 2%;
-}
-
-.skill-coding img {
-  width: 40%;
-  height: auto;
-  border-radius: 50%;
-  object-fit: cover;
-  transition: 1.5s;
-}
-
-.skill-coding img:hover {
-  border-radius: 10%;
-}
-
-.coding-title {
-  display: flex;
-  width: 100%;
-  background-color: white;
-  /* opacity: 0.6; */
-  border-radius: 20px;
-  padding-left: 1.5%;
-  margin-bottom: 1.2em;
-  margin-top: 1.2em;
-}
-
-.skill-music {
-  display: flex;
-  gap: 2%;
-}
-
-.skill-music img {
-  width: 40%;
-  height: auto;
-  border-radius: 50%;
-  object-fit: cover;
-  transition: 1.5s;
-}
-
-.skill-music img:hover {
-  border-radius: 10%;
-}
-
-.music-title {
-  display: flex;
-  width: 100%;
-  background-color: white;
-  /* opacity: 0.6; */
-  border-radius: 20px;
-  padding-left: 1.5%;
-  margin-bottom: 1.2em;
-  margin-top: 1.2em;
+.skills-text{
+  font-family: "Lora", serif;
+  font-size: medium;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 @media only screen and (max-width: 913px) {
   .skills-interests-main-wrapper {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     flex-wrap: nowrap;
     position: relative;
-  }
-
-  .skills-interests-main-wrapper p {
-    margin-left: 2%;
-    margin-right: 2%;
-  }
-
-  .skill-writing {
-    display: flex;
-    flex-direction: column;
-    gap: 2%;
-  }
-
-  .skill-writing img {
-    align-self: center;
-    width: 100%;
-    height: auto;
-  }
-
-  .skill-bjj {
-    display: flex;
-    flex-direction: column;
-    gap: 2%;
-  }
-
-  .skill-bjj img {
-    align-self: center;
-    width: 100%;
-    height: auto;
-  }
-
-  .skill-coding {
-    display: flex;
-    flex-direction: column;
-    gap: 2%;
-  }
-
-  .skill-coding img {
-    align-self: center;
-    width: 100%;
-    height: auto;
-  }
-
-  .skill-music {
-    display: flex;
-    flex-direction: column;
-    gap: 2%;
-  }
-
-  .skill-music img {
-    align-self: center;
-    width: 100%;
-    height: auto;
   }
 }
 
