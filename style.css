@@ -24,7 +24,6 @@ h1 {
 
 p {
   color: black;
-  /* opacity: 0.8; */
   font-size: 1.1em;
   line-height: 1.6;
   font-family: "Lora", serif;
@@ -43,7 +42,6 @@ a:visited {
   align-items: center;
   background-color: #f5f3f4;
   color: black;
-  /* opacity: 0.8; */
   font-family: "Lora", serif;
 }
 
@@ -815,44 +813,61 @@ a:visited {
     align-items: center;
     flex-wrap: nowrap;
     position: relative;
-    padding-left: 30px;
-    padding-right: 30px;
+    /* padding-left: 30px;
+    padding-right: 30px; */
+  }
+
+  .work-study-main-container img{
+    padding: 0;
+    margin: 0;
   }
 
   .icon-1 {
     align-self: center;
     width: 80%;
     height: auto;
+    padding: 10px;
+    margin: 10px;
   }
 
   .icon-2 {
     align-self: center;
     width: 80%;
     height: auto;
+    padding: 10px;
+    margin: 10px;
   }
 
   .icon-3 {
     align-self: center;
     width: 80%;
     height: auto;
+    padding: 10px;
+    margin: 10px;
   }
 
   .icon-4 {
     align-self: center;
     width: 80%;
     height: auto;
+    padding: 10px;
+    margin: 10px;
   }
 
   .icon-5 {
     align-self: center;
     width: 80%;
     height: auto;
+    padding: 10px;
+    margin: 10px;
   }
 
   .resume-icon {
     align-self: center;
     width: 80%;
     height: auto;
+    padding: 10px;
+    margin: 10px;
   }
 
   .back-to-top-work {
