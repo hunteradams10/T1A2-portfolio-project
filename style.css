@@ -290,33 +290,10 @@ a:visited {
   color: black;
 }
 
-/* ARCHIVE LIST COMPONENT */
-
-.blog-list {
-  display: block;
-  align-items: center;
-  align-content: center;
-  font-family: "Lora", serif;
-  text-align: center;
-  margin-bottom: 0;
+.css-fun{
   background-color: white;
-  border-radius: 30px;
-  margin-left: 10px;
-  margin-right: 10px;
-  padding: 10px;
-  color: black;
-  /* opacity: 0.6 */
-}
-
-.blog-list h3 {
-  text-align: center;
-  color: black;
-  font-family: "Lora", serif;
-}
-
-.blog-list li {
-  list-style: none;
-  padding: 10px;
+  padding: 20px;
+  border-radius: 20px; 
 }
 
 .blog-post-1-title {
@@ -443,11 +420,13 @@ a:visited {
   height: auto;
   border-radius: 10%;
   object-fit: cover;
-  transition: 1.5s;
+  transition: transform 1.0s;
+  padding: 1.2%;
 }
 
 .blog-post-1 img:hover {
-  border-radius: 1%;
+  border-radius: 10%;
+  transform: scale(1.2);
 }
 
 .blog-post-2 {
@@ -466,11 +445,13 @@ a:visited {
   height: auto;
   border-radius: 10%;
   object-fit: cover;
-  transition: 1.5s;
+  transition: transform 1.0s;
+  padding: 1.2%;
 }
 
 .blog-post-2 img:hover {
-  border-radius: 1%;
+  border-radius: 10%;
+  transform: scale(1.2);
 }
 
 .blog-post-3 {
@@ -489,11 +470,13 @@ a:visited {
   height: auto;
   border-radius: 10%;
   object-fit: cover;
-  transition: 1.5s;
+  transition: transform 1.0s;
+  padding: 1.2%;
 }
 
 .blog-post-3 img:hover {
-  border-radius: 1%;
+  border-radius: 10%;
+  transform: scale(1.2);
 }
 
 .blog-post-4 {
@@ -512,11 +495,14 @@ a:visited {
   height: auto;
   border-radius: 10%;
   object-fit: cover;
-  transition: 1.5s;
+  transition: transform 1.0s;
+  padding: 1.2%;
 }
 
 .blog-post-4 img:hover {
-  border-radius: .05%;
+  border-radius: 10%;
+  transform: scale(1.2);
+  
 }
 
 .blog-post-5 {
