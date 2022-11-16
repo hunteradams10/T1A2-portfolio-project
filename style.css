@@ -740,134 +740,16 @@ a:visited {
   transform: scale(1.2);
 }
 
-.icon-1 {
-  display: flex;
-  flex-direction: column;
-  width: 30%;
-  height: auto;
-  text-align: center;
-  padding: 2px;
-  margin: 10px;
-}
-
-.icon-2 {
-  display: flex;
-  flex-direction: column;
-  width: 30%;
-  height: auto;
-  text-align: center;
-  margin: 10px;
-  padding: 2px;
-}
-
-.icon-3 {
-  display: flex;
-  flex-direction: column;
-  width: 30%;
-  height: auto;
-  text-align: center;
-  margin: 10px;
-  padding: 2px;
-}
-
-.icon-4 {
-  display: flex;
-  flex-direction: column;
-  width: 30%;
-  height: auto;
-  text-align: center;
-  margin: 10px;
-  padding: 2px;
-}
-
-.icon-5 {
-  display: flex;
-  flex-direction: column;
-  width: 30%;
-  height: auto;
-  text-align: center;
-  margin: 10px;
-  padding: 2px;
-}
-
-.resume-icon {
-  display: flex;
-  flex-direction: column;
-  width: 30%;
-  height: auto;
-  justify-items: center;
-  text-align: center;
-  margin: 10px;
-  padding: 2px;
-}
-
-.resume-icon a {
-  text-decoration: none;
-  color: black;
+.card{
+  height: 200px;
+  width: 200px;
 }
 
 @media only screen and (max-width: 913px) {
-  .work-study-main-container {
-    display: flex;
+
+
+  .work-study-main-container{
     flex-direction: column;
-    align-items: center;
-    flex-wrap: nowrap;
-    position: relative;
-    /* padding-left: 30px;
-    padding-right: 30px; */
-  }
-
-  .work-study-main-container img{
-    padding: 0;
-    margin: 0;
-  }
-
-  .icon-1 {
-    align-self: center;
-    width: 80%;
-    height: auto;
-    padding: 10px;
-    margin: 10px;
-  }
-
-  .icon-2 {
-    align-self: center;
-    width: 80%;
-    height: auto;
-    padding: 10px;
-    margin: 10px;
-  }
-
-  .icon-3 {
-    align-self: center;
-    width: 80%;
-    height: auto;
-    padding: 10px;
-    margin: 10px;
-  }
-
-  .icon-4 {
-    align-self: center;
-    width: 80%;
-    height: auto;
-    padding: 10px;
-    margin: 10px;
-  }
-
-  .icon-5 {
-    align-self: center;
-    width: 80%;
-    height: auto;
-    padding: 10px;
-    margin: 10px;
-  }
-
-  .resume-icon {
-    align-self: center;
-    width: 80%;
-    height: auto;
-    padding: 10px;
-    margin: 10px;
   }
 
   .back-to-top-work {
